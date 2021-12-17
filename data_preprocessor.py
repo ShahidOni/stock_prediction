@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from stockstats import StockDataFrame as Sdf
 
-DATASET = "data/apple_google.csv"
+DATASET = "apple_google.csv"
 
 def load_dataset(*, file_name: str) -> pd.DataFrame:
 
